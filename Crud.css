@@ -1,0 +1,72 @@
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(6, 6, 15);
+    align-items: center;
+}
+
+.form-container{
+    margin-top: 20px;
+    width: 40vw;
+    height: 80vh;
+    padding: 10px;
+    background-color: rgb(147, 47, 47);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 10px 10px lightblue;
+}
+
+h2{
+    margin-bottom: 30px;
+}
+
+form input{
+    padding: 10px;
+    border-radius: 8px;
+    border: 3px solid black;
+}
+
+form button{
+    padding: 9px;
+    border-radius: 8px;
+    background-color: green;
+    border: 3px solid black;
+    cursor: pointer;
+    ;
+}
+
+.add_div{
+    width: 100%;
+    padding: 10px 0 0 70px;
+}
+.add_div button{
+    padding: 10px;
+    border-radius: 8px;
+    border: 3px solid black;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    margin-top: 20px;
+    align-items: center;
+    border: 2px solid black;
+}
+
+.update_form, .create_form{
+    display: none;
+}
+
+table .edit{
+background-color: blue;
+color: white;
+}
+
+table .delete{
+background-color: yellowgreen;
+color: white;
+}
